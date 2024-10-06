@@ -1,7 +1,9 @@
 # NASAHackathonIMADE
 UIUC i-MADE repo for NASA Hackathon 2024
 High-Level Summary
-Provide a high-level summary of your project. What did you develop? How does it address the challenge? Why is it important?
+
+
+**Provide a high-level summary of your project. What did you develop? How does it address the challenge? Why is it important?**
 
 To address the challenge of detecting seismic events across the solar system, our team developed a solution combining advanced signal processing and machine learning. We first designed signal processing logic to parse seismic data, which involves converting raw data into the miniSEED format. From this, we extract key features such as velocities and timestamps for each data point.
 
