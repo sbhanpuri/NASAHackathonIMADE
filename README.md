@@ -28,15 +28,14 @@ After that, we passed the resulting, masked data through a high pass filter to f
 From this point, we created graphs of the Short Term Average/Long Term Average (STA/LTA) ratio vs time, to be able to extenuate potential seismic events even more.
 Following that, we applied a throttling detection algorithm to this preprocessed STA/LTA graph to predict potential start and end times based on the STA/LTA ratio.
 Finally, we filtered each of these potential starts to make sure they met a specific threshold of width that is correspondent to average seismic events, by calculating the difference in time between each start and their corresponding ends. 
-Using pure signal processing techniques gave us already an accuracy of ___ and Positive Predictive Value of ___. We then also took this fed this processed data following the continuous wavelet transform and the high pass filter into our Machine Learning models.
+Using pure signal processing techniques gave us already an accuracy of 45%. We then also took this fed this processed data following the continuous wavelet transform and the high pass filter into our Machine Learning models.
 Machine Learning:
 We created two different types of models to apply our training data to in order to see which one yielded the best results. The regular LSTM model and the PhaseNet model. LSTMs are an RNN that is meant to capture long-term dependencies in sequential data. PhaseNet is a deep learning model meant specifically for seismic phase picking.
 
 Use of Artificial Intelligence
 Did you utilize any Artificial Intelligence tools and software in preparing your project? If yes, provide the sources and how you used them. (The answer to this question will not impact the judging of your project.)
 
-
-N/A
+We used ChatGPT to help generate base code ideas and to debug small issues when facing run-time errors.
 
 If you did not use Artificial Intelligence tools/software, please write "N/A" in the box below
 
