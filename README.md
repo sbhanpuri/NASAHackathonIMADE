@@ -12,14 +12,15 @@ Next, we applied a Short-Term Average to Long-Term Average (STA/LTA) ratio algor
 Our trained model can now identify the onset of seismic events within a specified time interval, achieving an accuracy of x%. This approach combines precise signal extraction with predictive modeling, significantly enhancing our ability to detect and predict seismic activity in a complex extraterrestrial environment.
 
 
-Project Details
-Provide additional details about your project. What exactly does it do? How does it work? What benefits does it have? What do you hope to achieve? What tools, coding languages, hardware, or software did you use to develop your project?
+**Project Details
+Provide additional details about your project. What exactly does it do? How does it work? What benefits does it have? What do you hope to achieve? What tools, coding languages, hardware, or software did you use to develop your project?**
 
 
-There are two parts to our project: Signal Processing and the Machine Learning Model. Our signal processing logic involves a series of steps:
+**There are two parts to our project: Signal Processing and the Machine Learning Model. Our signal processing logic involves a series of steps:
 
 
-Signal Processing:
+Signal Processing:**
+
 Convert raw data into mSEED file → pass file through a high pass filter to remove low frequency noise → generate sta/lta graph using sta/lta ratio algorithm → use previously calculated throttle values to predict start times.
 To prepare our signal for the machine learning models, we carried out a series of signal processing techniques to increase the models’ accuracies. 
 First, we converted the data from miniSEED format to a numpy.ndarray so that we can apply commonly used signal processing techniques to make the data more suitable for the ML models.
@@ -32,19 +33,16 @@ Using pure signal processing techniques gave us already an accuracy of 45%. We t
 Machine Learning:
 We created two different types of models to apply our training data to in order to see which one yielded the best results. The regular LSTM model and the PhaseNet model. LSTMs are an RNN that is meant to capture long-term dependencies in sequential data. PhaseNet is a deep learning model meant specifically for seismic phase picking.
 
-Use of Artificial Intelligence
+**Use of Artificial Intelligence**
 Did you utilize any Artificial Intelligence tools and software in preparing your project? If yes, provide the sources and how you used them. (The answer to this question will not impact the judging of your project.)
 
 We used ChatGPT to help generate base code ideas and to debug small issues when facing run-time errors.
 
-If you did not use Artificial Intelligence tools/software, please write "N/A" in the box below
 
-Space Agency Data
+**Space Agency Data
 Please list the resources used. You are welcome to use any open data in your project. However, to be eligible for a Global Award, you must use data or resources from NASA.
 
 References
-In addition to Space Agency Agency data, list any data, resources, and tools used in your project. Resources should include any code, text, and images (even if they are open source or freely available) that you used when creating your project. If you are using any copyrighted materials, make sure you have permission to use them.
+In addition to Space Agency Agency data, list any data, resources, and tools used in your project. Resources should include any code, text, and images (even if they are open source or freely available) that you used when creating your project. If you are using any copyrighted materials, make sure you have permission to use them.**
 
-For "Link Text", please input the name of the reference.
 
-Important: Make sure your link is formatted using the entire URL, for example:
