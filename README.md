@@ -33,11 +33,6 @@ Using pure signal processing techniques gave us already an accuracy of 45%. We t
 Machine Learning:
 We created two different types of models to apply our training data to in order to see which one yielded the best results. The regular LSTM model and the PhaseNet model. LSTMs are an RNN that is meant to capture long-term dependencies in sequential data. PhaseNet is a deep learning model meant specifically for seismic phase picking.
 
-**Use of Artificial Intelligence**
-Did you utilize any Artificial Intelligence tools and software in preparing your project? If yes, provide the sources and how you used them. (The answer to this question will not impact the judging of your project.)
-
-We used ChatGPT to help generate base code ideas and to debug small issues when facing run-time errors.
-
 
 **Space Agency Data
 Please list the resources used. You are welcome to use any open data in your project. However, to be eligible for a Global Award, you must use data or resources from NASA.
